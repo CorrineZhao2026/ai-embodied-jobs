@@ -1,0 +1,87 @@
+[
+  {
+    "title": "VLA 算法工程师",
+    "base": "深圳",
+    "domains": [
+      "具身智能",
+      "VLA 端到端大模型",
+      "多模态预训练"
+    ],
+    "highlights": [
+      "端到端具身大模型全流程参与",
+      "5 个 HC 批量在招,团队快速扩张",
+      "200 卡以上训练资源,算力管够",
+      "大厂 VLM 与多模态预训练背景可投"
+    ],
+    "slug": "vla-algorithm-engineer-shenzhen",
+    "hc": null
+  },
+  {
+    "title": "具身 VLA 负责人",
+    "base": "杭州",
+    "domains": [
+      "具身智能",
+      "VLA 端到端大模型",
+      "AI Native"
+    ],
+    "highlights": [
+      "0→1 主导架构设计与团队搭建",
+      "AI Native 团队,端到端具身大模型",
+      "VLA 方向一号位,技术路线决策权",
+      "面向有业界知名度的技术领军者"
+    ],
+    "slug": "embodied-vla-lead-hangzhou",
+    "hc": null
+  },
+  {
+    "title": "机器人运动控制算法专家",
+    "base": "杭州",
+    "domains": [
+      "人形具身智能",
+      "机器人整机",
+      "四足与双臂"
+    ],
+    "highlights": [
+      "MPC 与 WBC 全身控制算法全栈实战",
+      "sim2real 全链路,仿真到实机闭环",
+      "人形与双臂整机控制算法主导",
+      "整机量产与现场交付经验可用武之地"
+    ],
+    "slug": "robot-motion-control-algorithm-expert-hangzhou",
+    "hc": null
+  },
+  {
+    "title": "运动控制算法专家",
+    "base": "北京",
+    "domains": [
+      "人形具身智能",
+      "灵巧手",
+      "双臂机器人"
+    ],
+    "highlights": [
+      "主导双臂与灵巧手核心运控算法",
+      "MPC 策略从建模到真机闭环验证",
+      "架构自主度高,关键路径可上 Rust",
+      "输出技术方案并带工程师落地"
+    ],
+    "slug": "motion-control-algorithm-expert-beijing",
+    "hc": null
+  },
+  {
+    "title": "运动控制算法专家",
+    "base": "深圳",
+    "domains": [
+      "人形具身智能",
+      "灵巧手",
+      "双臂机器人"
+    ],
+    "highlights": [
+      "主导双臂与灵巧手核心运控算法",
+      "MPC 策略从建模到真机闭环验证",
+      "架构自主度高,关键路径可上 Rust",
+      "输出技术方案并带工程师落地"
+    ],
+    "slug": "motion-control-algorithm-expert-shenzhen",
+    "hc": null
+  }
+]
