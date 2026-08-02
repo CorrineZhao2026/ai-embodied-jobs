@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI & 具身智能 在招岗位 | 猎头Q · AI/具身智能行业顾问</title>
+<meta name="description" content="AI 与具身智能方向在招岗位：VLA、运动控制、灵巧手、人形机器人。扫码直接沟通。">
+<meta property="og:title" content="AI & 具身智能 在招岗位">
+<meta property="og:description" content="VLA / 运动控制 / 灵巧手 / 人形机器人 方向在招岗位，扫码直接聊。">
+<meta property="og:type" content="website">
+<style>
+  :root{
+    --brand:#2F6FEB;
+    --ink:#16202e;
+    --muted:#6b7787;
+    --line:#e6eaf0;
+    --bg:#f7f9fc;
+    --card:#ffffff;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei","Segoe UI",sans-serif;
+    background:var(--bg); color:var(--ink); line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+  header{
+    background:var(--card); border-bottom:1px solid var(--line);
+    padding:56px 0 44px; text-align:center;
+  }
+  .eyebrow{
+    display:inline-block; font-size:13px; letter-spacing:.14em; font-weight:700;
+    color:var(--brand); border:1px solid var(--brand); border-radius:999px;
+    padding:6px 16px; margin-bottom:20px;
+  }
+  h1{font-size:clamp(26px,4.4vw,40px); font-weight:800; letter-spacing:-.01em}
+  .sub{color:var(--muted); margin-top:12px; font-size:16px}
+  .stat{
+    margin-top:24px; display:flex; gap:28px; justify-content:center; flex-wrap:wrap;
+    font-size:14px; color:var(--muted);
+  }
+  .stat b{display:block;font-size:26px;color:var(--ink);font-weight:800;line-height:1.2}
+  nav{
+    background:var(--card); border-bottom:1px solid var(--line);
+    position:sticky; top:0; z-index:9; overflow-x:auto; -webkit-overflow-scrolling:touch;
+  }
+  nav .wrap{display:flex; gap:8px; padding-top:10px; padding-bottom:10px}
+  nav a{
+    flex:none; text-decoration:none; color:var(--ink); font-size:14px; font-weight:600;
+    border:1px solid var(--line); border-radius:8px; padding:7px 13px; white-space:nowrap;
+  }
+  nav a:hover{border-color:var(--brand); color:var(--brand)}
+  nav a em{font-style:normal;color:var(--muted);font-weight:500;margin-left:6px;font-size:13px}
+  main{padding:40px 0 20px}
+  .card{
+    background:var(--card); border:1px solid var(--line); border-radius:16px;
+    margin-bottom:22px; overflow:hidden; display:grid; grid-template-columns:1fr 260px;
+    scroll-margin-top:70px;
+  }
+  .card-body{padding:28px 30px}
+  .card-top{display:flex; align-items:baseline; gap:14px; flex-wrap:wrap}
+  .card h3{font-size:23px; font-weight:800; letter-spacing:-.01em}
+  .meta{display:flex; gap:8px; align-items:center}
+  .base{
+    font-size:13px; font-weight:700; color:var(--brand);
+    background:color-mix(in srgb, var(--brand) 9%, #fff);
+    border:1px solid color-mix(in srgb, var(--brand) 26%, #fff);
+    border-radius:6px; padding:3px 10px;
+  }
+  .hc{font-size:13px; font-weight:700; color:#b4551a; background:#fff3e6;
+      border:1px solid #ffd9b0; border-radius:6px; padding:3px 10px}
+  .chips{margin:16px 0 4px; display:flex; gap:8px; flex-wrap:wrap}
+  .chip{
+    font-size:13px; color:var(--muted); background:#f2f5f9;
+    border-radius:6px; padding:4px 11px;
+  }
+  .hls{list-style:none; margin-top:16px}
+  .hls li{position:relative; padding-left:20px; margin-bottom:9px; font-size:15px}
+  .hls li::before{
+    content:""; position:absolute; left:0; top:.62em; width:7px; height:7px;
+    border-radius:2px; background:var(--brand);
+  }
+  .card-poster{
+    position:relative; display:block; border-left:1px solid var(--line);
+    background:#fafbfd; text-decoration:none; overflow:hidden;
+  }
+  .card-poster img{width:100%; height:100%; object-fit:cover; object-position:top; display:block}
+  .card-poster .view{
+    position:absolute; left:0; right:0; bottom:0; text-align:center;
+    font-size:13px; font-weight:600; color:#fff; padding:10px 0 9px;
+    background:linear-gradient(transparent,rgba(10,18,30,.72) 45%);
+    z-index:2;
+  }
+  .contact{
+    background:var(--card); border:1px solid var(--line); border-radius:16px;
+    padding:36px 30px; text-align:center; margin:14px 0 40px;
+  }
+  .contact h2{font-size:21px; font-weight:800}
+  .contact p{color:var(--muted); font-size:15px; margin-top:8px}
+  .qr{
+    width:210px; height:210px; margin:22px auto 12px; padding:10px; background:#fff;
+    border:2px solid var(--brand); border-radius:14px;
+  }
+  .qr img{width:100%; height:100%; display:block}
+  .sign{font-size:15px; font-weight:700; margin-top:6px}
+  footer{
+    border-top:1px solid var(--line); padding:26px 0 44px;
+    color:var(--muted); font-size:13px; text-align:center;
+  }
+  footer .note{max-width:640px; margin:0 auto}
+  @media (max-width:720px){
+    .card{grid-template-columns:1fr}
+    .card-poster{border-left:0; border-top:1px solid var(--line); max-height:320px}
+    .card-poster img{height:100%; object-position:center top}
+    .card-body{padding:22px 20px}
+    header{padding:40px 0 32px}
+    nav a{padding:6px 10px; font-size:13px}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <span class="eyebrow">AI &amp; 具身智能 · 行业猎头</span>
+    <h1>AI &amp; 具身智能 · 在招岗位</h1>
+    <p class="sub">VLA 端到端大模型 · 机器人运动控制 · 灵巧手与人形整机</p>
+    <div class="stat">
+      <div><b>5</b>个在招岗位</div>
+      <div><b>3</b>个城市</div>
+      <div><b>2026-08-02</b>最近更新</div>
+    </div>
+  </div>
+</header>
+
+<nav><div class="wrap"><a href="#vla-algorithm-engineer-shenzhen">VLA 算法工程师<em>深圳</em></a><a href="#embodied-vla-lead-hangzhou">具身 VLA 负责人<em>杭州</em></a><a href="#robot-motion-control-algorithm-expert-hangzhou">机器人运动控制算法专家<em>杭州</em></a><a href="#motion-control-algorithm-expert-beijing">运动控制算法专家<em>北京</em></a><a href="#motion-control-algorithm-expert-shenzhen">运动控制算法专家<em>深圳</em></a></div></nav>
+
+<main class="wrap">
+
+      <article class="card" id="vla-algorithm-engineer-shenzhen">
+        <div class="card-body">
+          <div class="card-top">
+            <h3>VLA 算法工程师</h3>
+            <div class="meta"><span class="base">深圳</span></div>
+          </div>
+          <div class="chips"><span class="chip">具身智能</span><span class="chip">VLA 端到端大模型</span><span class="chip">多模态预训练</span></div>
+          <ul class="hls"><li>端到端具身大模型全流程参与</li><li>5 个 HC 批量在招,团队快速扩张</li><li>200 卡以上训练资源,算力管够</li><li>大厂 VLM 与多模态预训练背景可投</li></ul>
+        </div>
+        <a class="card-poster" href="posters/vla-algorithm-engineer-shenzhen.png" target="_blank" rel="noopener">
+          <img src="posters/vla-algorithm-engineer-shenzhen.png" alt="VLA 算法工程师 · 深圳 招聘海报" loading="lazy">
+          <span class="view">查看海报大图</span>
+        </a>
+      </article>
+      <article class="card" id="embodied-vla-lead-hangzhou">
+        <div class="card-body">
+          <div class="card-top">
+            <h3>具身 VLA 负责人</h3>
+            <div class="meta"><span class="base">杭州</span></div>
+          </div>
+          <div class="chips"><span class="chip">具身智能</span><span class="chip">VLA 端到端大模型</span><span class="chip">AI Native</span></div>
+          <ul class="hls"><li>0→1 主导架构设计与团队搭建</li><li>AI Native 团队,端到端具身大模型</li><li>VLA 方向一号位,技术路线决策权</li><li>面向有业界知名度的技术领军者</li></ul>
+        </div>
+        <a class="card-poster" href="posters/embodied-vla-lead-hangzhou.png" target="_blank" rel="noopener">
+          <img src="posters/embodied-vla-lead-hangzhou.png" alt="具身 VLA 负责人 · 杭州 招聘海报" loading="lazy">
+          <span class="view">查看海报大图</span>
+        </a>
+      </article>
+      <article class="card" id="robot-motion-control-algorithm-expert-hangzhou">
+        <div class="card-body">
+          <div class="card-top">
+            <h3>机器人运动控制算法专家</h3>
+            <div class="meta"><span class="base">杭州</span></div>
+          </div>
+          <div class="chips"><span class="chip">人形具身智能</span><span class="chip">机器人整机</span><span class="chip">四足与双臂</span></div>
+          <ul class="hls"><li>MPC 与 WBC 全身控制算法全栈实战</li><li>sim2real 全链路,仿真到实机闭环</li><li>人形与双臂整机控制算法主导</li><li>整机量产与现场交付经验可用武之地</li></ul>
+        </div>
+        <a class="card-poster" href="posters/robot-motion-control-algorithm-expert-hangzhou.png" target="_blank" rel="noopener">
+          <img src="posters/robot-motion-control-algorithm-expert-hangzhou.png" alt="机器人运动控制算法专家 · 杭州 招聘海报" loading="lazy">
+          <span class="view">查看海报大图</span>
+        </a>
+      </article>
+      <article class="card" id="motion-control-algorithm-expert-beijing">
+        <div class="card-body">
+          <div class="card-top">
+            <h3>运动控制算法专家</h3>
+            <div class="meta"><span class="base">北京</span></div>
+          </div>
+          <div class="chips"><span class="chip">人形具身智能</span><span class="chip">灵巧手</span><span class="chip">双臂机器人</span></div>
+          <ul class="hls"><li>主导双臂与灵巧手核心运控算法</li><li>MPC 策略从建模到真机闭环验证</li><li>架构自主度高,关键路径可上 Rust</li><li>输出技术方案并带工程师落地</li></ul>
+        </div>
+        <a class="card-poster" href="posters/motion-control-algorithm-expert-beijing.png" target="_blank" rel="noopener">
+          <img src="posters/motion-control-algorithm-expert-beijing.png" alt="运动控制算法专家 · 北京 招聘海报" loading="lazy">
+          <span class="view">查看海报大图</span>
+        </a>
+      </article>
+      <article class="card" id="motion-control-algorithm-expert-shenzhen">
+        <div class="card-body">
+          <div class="card-top">
+            <h3>运动控制算法专家</h3>
+            <div class="meta"><span class="base">深圳</span></div>
+          </div>
+          <div class="chips"><span class="chip">人形具身智能</span><span class="chip">灵巧手</span><span class="chip">双臂机器人</span></div>
+          <ul class="hls"><li>主导双臂与灵巧手核心运控算法</li><li>MPC 策略从建模到真机闭环验证</li><li>架构自主度高,关键路径可上 Rust</li><li>输出技术方案并带工程师落地</li></ul>
+        </div>
+        <a class="card-poster" href="posters/motion-control-algorithm-expert-shenzhen.png" target="_blank" rel="noopener">
+          <img src="posters/motion-control-algorithm-expert-shenzhen.png" alt="运动控制算法专家 · 深圳 招聘海报" loading="lazy">
+          <span class="view">查看海报大图</span>
+        </a>
+      </article>
+
+  <section class="contact">
+    <h2>直接聊，不绕弯</h2>
+    <p>看到合适的岗位，或者想先了解行情、聊聊职业规划，都可以扫码找我。</p>
+    <div class="qr"><img src="assets/wechat_qr.png" alt="微信二维码"></div>
+    <div class="sign">猎头Q · AI/具身智能行业顾问</div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap note">
+    本页仅同步岗位方向与需求要点，不含客户公司名称与薪酬信息，具体信息一对一沟通。<br>
+    候选人信息严格保密，未经本人同意不向任何第三方推送简历。
+  </div>
+</footer>
+
+</body>
+</html>
